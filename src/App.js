@@ -1,7 +1,8 @@
 import React from "react";
+import './App.css';
 import * as THREE from "three";
 import GLOBE from "vanta/dist/vanta.globe.min.js";
-import Trial from "./Trial";
+import Body from "./Body";
 
 class App extends React.Component {
   constructor() {
@@ -30,8 +31,8 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div style={{ height: "99.9vh", width: "100%" }} ref={this.vantaRef}>
-        <Trial />
+      <div className='App' ref={this.vantaRef}>
+        <Body />
       </div>
     );
   }
