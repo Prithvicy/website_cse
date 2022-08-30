@@ -1,9 +1,21 @@
 import React from 'react'
-import './Trial.css'
 
 const Trial = () => {
     return (
-        <div className='trial'>CSE</div>
+        <div>
+            CSE
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            hello
+        </div>
     )
 }
 
