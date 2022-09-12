@@ -1,6 +1,6 @@
 import React from 'react'
 import './Body.css'
-import Trial from './Trial'
+import Trial from './Components/Trial'
 
 const Body = () => {
     return (
