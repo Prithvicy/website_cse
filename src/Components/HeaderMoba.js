@@ -53,48 +53,48 @@ const HeaderMoba = () => {
         
       </span>
       
-      <a href="/" className="mobalogo">
+      {/* <Link to="/" className="mobalogo">
           <img src={logo} alt="" />
-        </a>
+        </Link> */}
       <div className="nav" id='nav'>
         <div className="nav__content">
           <div className="nav__list">
-            <a href='/peoandpso' className="nav__list-item">
+            <Link to='/about' className="nav__list-item">
               <span>PEO and PSO</span>
-            </a>
-            <a href='/regulations' className="nav__list-item">
+            </Link>
+            <Link to='/regulations' className="nav__list-item">
               <span>Curriculum Regulations</span>
-            </a>
+            </Link>
             <span className="nav__list-item"><Dropdown data={dropdownH['faculty']} /></span>
             <span className="nav__list-item"><Dropdown data={dropdownH['research']} /></span>
-            <a href='/infrastructure' className="nav__list-item">
+            <Link to='/infrastructure' className="nav__list-item">
               <span>Infrastructure</span>
-            </a>
-            <a href='/testimonials' className="nav__list-item">
+            </Link>
+            <Link to='/testimonials' className="nav__list-item">
               <span>Testimonials</span>
-            </a>
-            <a href='/placemenets' className="nav__list-item">
+            </Link>
+            <Link to='/placemenets' className="nav__list-item">
               <span>Placements</span>
-            </a>
-            <a href='/higherstudies' className="nav__list-item">
+            </Link>
+            <Link to='/higherstudies' className="nav__list-item">
               <span>Higher Studies</span>
-            </a>
-            <a href='/rankholders' className="nav__list-item">
+            </Link>
+            <Link to='/rankholders' className="nav__list-item">
               <span>Rank Holders </span>
-            </a>
+            </Link>
             <span className="nav__list-item"><Dropdown data={dropdownH['students']} /></span>
-            <a href='/elitealumni' className="nav__list-item">
+            <Link to='/elitealumni' className="nav__list-item">
               <span>Elite Alumni </span>
-            </a>
-            <a href='/chapter' className="nav__list-item">
+            </Link>
+            <Link to='/chapter' className="nav__list-item">
               <span>Chapter</span>
-            </a>
-            <a href='/club' className="nav__list-item">
+            </Link>
+            <Link to='/club' className="nav__list-item">
               <span>Club </span>
-            </a>
-            <a href='/bosmembers' className="nav__list-item">
+            </Link>
+            <Link to='/bosmembers' className="nav__list-item">
               <span>bos members</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

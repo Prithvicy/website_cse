@@ -6,7 +6,7 @@ import Trial from './Components/Trial'
 const Body = () => {
     return (
         <div className='body'>
-            <HeadearMoba/>
+            {/* <HeadearMoba/> */}
             <Trial />
         </div>
     )
